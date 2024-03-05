@@ -11,7 +11,7 @@ services:
         container_name: recursive-backend
         image: recursive-backend:development
         ports:
-            - '3000:3000'
+            - '7000:7000'
         extra_hosts:
             - 'host.docker.internal:host-gateway'
         volumes:

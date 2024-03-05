@@ -20,7 +20,7 @@ RUN npm run build
 ENV NODE_ENV=development
 
 # Expose the port on which the NestJS application will run
-EXPOSE 3000
+EXPOSE 7000
 
 # Run the NestJS application in production mode
 CMD ["npm", "run", "start:dev"]
