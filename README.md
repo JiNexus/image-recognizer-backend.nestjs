@@ -63,13 +63,13 @@ $ npm run test:cov
 Development
 
 ```bash
-docker-compose -f .docker/development/docker-compose.yml up --build --remove-orphans
+docker-compose -f .docker/development/docker-compose.yml up --build
 ```
 
 Production
 
 ```bash
-docker-compose -f .docker/production/docker-compose.yml up --build --remove-orphans
+docker-compose -f .docker/production/docker-compose.yml up --build
 ```
 
 ## Support
